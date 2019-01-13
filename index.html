@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <title>Crystals Collector</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="jumbotron">
+        <h1 class="text-center display-1">Crystal Collector!</h1>
+        <br />
+                
+                 
+        <div class="container">    
+            
+            <div class="randomNumber text-center" id="randomNumber"></div>
+                <br>
+                <div class="row">
+                    <div class="col-lg-2"></div>
+                    <div class="col-lg-4">
+                    <div class="userTotal">
+                            <h3>Your total score is:
+                                <span id="finalTotal"></span>
+                            </h3>
+                    </div>
+                    <br>
+                    <div class="winsLoses">
+                            <h4>Wins:
+                                <span id="numberWins"></span>
+                                <br>
+                                <br>
+                                Loses:
+                                <span id="numberLoses"></span>
+                            </h4>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-6">
+                    
+                    <div class="gems">
+                        <input type="image" id="one" img src="assets/images/turquoise.jpg" class=gemImage alt="Turquoise" style="width:90px; height:90px; border-radius: 50%;">
+                        <input type="image" id="two" img src="assets/images/electric.jpg" class=gemImage  alt="Electric" style="width:90px; height:90px; border-radius:50%;">
+                        <input type="image" id="three" img src="assets/images/silk.jpg" class=gemImage  alt="Silk" style="width:90px; height:90px; border-radius: 50%;">
+                        <input type="image" id="four" img src="assets/images/coral.jpg" class=gemImage  alt="Coral" style="width:90px; height:90px; border-radius: 50%;">
+                    </div>
+
+                    
+                </div>
+                </div>
+                
+                
+                
+                <div class="text-center">
+                <div class="rule">
+                        <div id="flip">CLICK ME TO BE DAZZLED!
+                        
+                        <div id="panel">You are given a random number at the start of the game.  There are four crystals below.  By clicking on a crystal, you will add a specific amount of points to your total score.  You win the game by matching your total score to the random number, you lose the game if your total score goes above the random number.  The value of each crystal is hidden from you until you click on it.  Each time when the game starts, the game will change the values of each crystal.</div>
+                        </div>
+                </div>
+                
+        
+    </div>
+
+        
+                        
+            <script src="assets/javascript/game.js"></script>
+       
+
+        
+        
+            
+        
+    </div>
+</body>
+</html>
+
